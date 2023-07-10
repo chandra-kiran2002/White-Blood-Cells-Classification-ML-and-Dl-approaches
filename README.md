@@ -1,6 +1,6 @@
 #White Blood Cell Classification
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-Demo Video <i class="fa fa-youtube-play"></i>
+Demo Video <i class="fa fa-youtube-play"><a href = "https://www.youtube.com/watch?v=1NqH9XWJdNA" ></a></i>
 
 This repository contains code and resources for a 4-class classification task of white blood cells. The objective is to classify white blood cell images into four different classes based on their morphology.
 
@@ -22,3 +22,5 @@ NumPy
 Matplotlib
 OpenCV
 Jupyter Notebook (optional, for running the provided notebook)
+
+
