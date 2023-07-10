@@ -1,0 +1,163 @@
+<!DOCTYPE HTML>
+<!-- Website Template by freewebsitetemplates.com -->
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>WBC</title>
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+
+<body>
+	<div id="header">
+		<div class="section">
+			<div class="logo">
+				<a href="index.html">WBC</a>
+			</div>
+			<ul>
+				<li class="selected">
+					<a href="index.html">home</a>
+				</li>
+				<li>
+					<a href="about.html">about</a>
+				</li>
+				<li>
+					<a href="Discover.html">Discover</a>
+				</li>
+				<li>
+					<a href="contact.html">contact</a>
+				</li>
+				<li>
+					<a href="login.html">Signin</a>
+				</li>
+			</ul>
+		</div>
+		<div class="article">
+			<img src="images/WBC.jpg" alt="">
+			<h1>Types of White Blood Cells Using Image.</h1>
+		</div>
+	</div>
+	<div id="body">
+		<ul>
+			<li>
+				<a href="eosinophil.html"><img src="images/Eosinophil.jpg" alt=""  width="210" height="170"></a>
+				<b>Eosinophil</b>
+				<p>
+					Eosinophils are a type of disease-fighting white blood cell. This condition most often indicates a parasitic infection, an allergic reaction or cancer.
+				</p>
+			</li>
+			<li>
+				<a href="lymphocyte.html"><img src="images/Lymphocyte.jpg" alt="" width="210" height="170"></a>
+				<b>Lymphocytes</b>
+				<p>
+					Lymphocytes are white blood cells and one of the body’s main types of immune cells. They are made in the bone marrow and found in the blood and lymph tissue.
+				</p>
+			</li>
+			<li>
+				<a href="monocyte.html"><img src="images/monocyte.jpg" alt="" width="210" height="170"></a>
+				<b>Monocyte</b>
+				<p>
+					Monocytes are a type of white blood cell that reside in your blood and tissues to find and destroy germs (viruses, bacteria, fungi) and eliminate infected cells.
+				</p>
+			</li>
+			<li>
+				<a href="neutrophil.html"><img src="images/neutrophil.png" alt="" width="210" height="170"></a>
+				<b>Neutrophil</b>
+				<p>
+					Neutrophils are a type of white blood cell. They are essential to the functioning of the immune system, which sees off pathogens such as bacteria and viruses.
+				</p>
+			</li>
+		</ul>
+		<div>
+			<div class="featured">
+				<h2>features</h2>
+				<img id="img" src="images/white-blood-cells.jpg" alt="" width="420" height="300">
+				<h3>Image Features</h3>
+				<p>
+					Microscopic images will give best result. <br>
+					Image should contain details like picture shown above.<br>
+					Your output will Shown beside in a classified manner according to image.<br>
+					A cropped image output with its type shown after submitting. <br>
+
+				</p>
+				
+				
+			</div>
+			<div class="section">
+				<div class="article">
+					<h2>File Upload</h2>
+					<p>
+						Please upload image in format of .png/.jpg/.jpeg only.<br>
+						Image size should not exclude 5MB.<br>
+						Only images of size upto 600x600 are accepted.<br>
+						Multiple images are not allowed<br>
+					</p>
+					<div>
+					<input class="form-control form-control-lg" id="formFileLg" type="file">
+					<input onclick="get_data()" class="btn btn-primary" type="submit" value="Submit">
+					  </div>
+					  
+				</div>
+			
+				
+			</div>
+			<div class="section">
+				<div style="padding-top: 20px;" class="article">
+					<h2>prediction</h2>
+					<table >
+						<tr>
+							<td>
+								<img id="crop_img" style="border-radius: 5px;padding-top: 30px;" src="images/Eosinophil.jpg" alt=""  width="100" height="100">
+							</td>
+							<td style="padding-left: 10%;color:aliceblue">
+								
+								<div style="height: 100px;width:100px;background-color:#519194;border: 0;margin: 0;">
+									<h1  id="class">Eosinophil</h1>
+									<table >
+										<tr >
+											<td ><p style="padding: 0;margin:0">Eosinophil</p></td>
+											<td><div id="eos" style="height: 20px;width: 100px;background-color: black;border: 0px;margin: 0px;padding: 0px;border-radius: 10px;"></div></td>
+											<td ><p id="eos1" style="padding: 0;margin:0">23%</p></td>
+										</tr>
+										<tr >
+											<td ><p style="padding: 0;margin:0">Lymphocytes</p></td>
+											<td><div id="lym" style="height: 20px;width: 50px;background-color: black;border: 0px;margin: 0;padding: 0;border-radius: 10px;"></div></td>
+											<td ><p id="lym1"  style="padding: 0;margin:0">23%</p></td>
+										</tr>
+										<tr>
+											<td ><p style="padding: 0;margin:0">Monocyte</p></td>
+											<td><div id="mon" style="height: 20px;width: 25px;background-color: black;border: 0px;margin: 0;padding: 0;border-radius: 10px;"></div></td>
+											<td ><p id="mon1" style="padding: 0;margin:0">23%</p></td>
+										</tr>
+										<tr>
+											<td ><p style="padding: 0;margin:0">Neutrophil</p></td>
+											<td><div id="neu" style="height: 20px;width: 10px;background-color: black;border: 0px;margin: 0;padding: 0;border-radius: 50px;"></div></td>
+											<td ><p id="neu1"  style="padding: 0;margin:0">23%</p></td>
+										</tr>
+									</table>
+									<!-- <div style="height: 20%;width: 10%;background-color: black;border: 0px;padding: 1px;"></div> -->
+								</div>
+							</td>
+						</tr>
+					</table>
+
+
+
+				</div>	  
+			</div>
+		</div>
+	</div>
+	<div id="footer">
+		<div>
+			<div class="connect">
+				<a href="http://freewebsitetemplates.com/go/twitter/" id="twitter">twitter</a>
+				<a href="http://freewebsitetemplates.com/go/facebook/" id="facebook">facebook</a>
+				<a href="http://freewebsitetemplates.com/go/googleplus/" id="googleplus">googleplus</a>
+				<a href="http://pinterest.com/fwtemplates/" id="pinterest">pinterest</a>
+			</div>
+			<p>
+				&copy; copyright 2022 | all rights reserved.
+			</p>
+		</div>
+	</div>
+	<script src="./js/index_js.js"></script>
+</body>
+</html>
