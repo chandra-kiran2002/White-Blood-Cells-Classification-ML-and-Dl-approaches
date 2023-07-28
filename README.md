@@ -1,7 +1,14 @@
 # White Blood Cell Classification Demo Video 📺
 
 
-[![Image Alt Text](https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches/assets/90372447/e5d3bb29-5830-45e3-b88e-9d93c90a7c71)](https://www.youtube.com/watch?v=1NqH9XWJdNA "Click here")
+<a href="https://www.youtube.com/watch?v=1NqH9XWJdNA" target="_blank" style="display: inline-block; text-decoration: none; vertical-align: middle;">
+  <table style="border: none;">
+  <tr>
+  <td style="border: none;"><img src="https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches/assets/90372447/e5d3bb29-5830-45e3-b88e-9d93c90a7c71" alt="Icon" style="width: 50px; height: 50px; border: none;"></td>
+  <td style="border: none;">Click Here</td>
+  </tr></table>
+</a>
+</a>
 
 
 
