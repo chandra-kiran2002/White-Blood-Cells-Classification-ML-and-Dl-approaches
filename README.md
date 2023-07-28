@@ -1,7 +1,9 @@
 # White Blood Cell Classification Demo Video 📺
 
-![![SubscribeYoutubeGIF](https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches/assets/90372447/564748e2-81d2-4d45-998b-c847e6450420)
-](https://www.youtube.com/watch?v=1NqH9XWJdNA)
+
+[![Image Alt Text](https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches/assets/90372447/e5d3bb29-5830-45e3-b88e-9d93c90a7c71)](https://www.youtube.com/watch?v=1NqH9XWJdNA "Click here")
+
+
 
 This repository contains code and resources for a 4-class classification task of white blood cells. The objective is to classify white blood cell images into four different classes based on their morphology.
 
