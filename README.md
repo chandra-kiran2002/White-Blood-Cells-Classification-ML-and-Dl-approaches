@@ -28,8 +28,3 @@ To run the code in this repository, you will need the following dependencies:
 - OpenCV
 - Jupyter Notebook (optional, for running the provided notebook)
 
-## Getting Started
-1. First, make sure you have all the dependencies mentioned above installed on your system.
-2. Next, obtain the dataset as per the instructions provided in the "Data" section.
-3. Clone this repository to your local machine using the following command:
-git clone [https://github.com/your-username/your-repo.git](https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches)https://github.com/chandra-kiran2002/White-Blood-Cells-Classification-ML-and-Dl-approaches
