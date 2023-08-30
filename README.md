@@ -1,6 +1,5 @@
 # White Blood Cell Classification Demo Video 📺
 
-Research Paper https://www.ijiemr.org/public/uploads/paper/963451675681452.pdf 
 
 Live Demo      https://www.youtube.com/watch?v=1NqH9XWJdNA
 
