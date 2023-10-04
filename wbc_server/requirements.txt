@@ -6,3 +6,6 @@ Pillow
 flask
 flask-cors
 joblib
+sklearn
+PIL
+base64
