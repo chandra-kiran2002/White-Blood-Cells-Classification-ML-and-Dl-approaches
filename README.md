@@ -1,4 +1,4 @@
-# White Blood Cell Classification Demo Video 📺
+# White Blood Cell Classification 
 
 
 Live Hosted Web Link: [🚀 Visit Live Website](https://wbc.onrender.com/)<br>
