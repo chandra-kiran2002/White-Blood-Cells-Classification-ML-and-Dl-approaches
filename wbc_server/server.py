@@ -34,9 +34,9 @@ class game:
         if(self.randNumber==x):
             return True
 
-@app.route('/')
-def hello_world():
-    return "kiran"
+# @app.route('/')
+# def hello_world():
+#     return "kiran"
 @app.route("/<int:n>")
 def num(n):
     return "<h3> your number  "+str(n)+"</h1>"
