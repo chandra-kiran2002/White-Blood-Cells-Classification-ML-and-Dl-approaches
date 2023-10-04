@@ -1,8 +1,6 @@
 import numpy as np
 import pandas as pd
-import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
-from skimage.transform import resize
 from PIL import Image as im
 from PIL import Image
 

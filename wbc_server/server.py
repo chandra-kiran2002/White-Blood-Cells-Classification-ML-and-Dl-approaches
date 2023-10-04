@@ -1,15 +1,12 @@
-from flask import Flask,render_template,request,jsonify,make_response
-from flask import send_file
+from flask import Flask,request,jsonify
 from base64 import encodebytes
 from PIL import Image
 import io
-from flask_cors import CORS, cross_origin
-
-
-import pickle
+from flask_cors import CORS
 import crop_img
 import predict
 import os
+
 app = Flask(__name__)
 CORS(app)
 cors = CORS(app, resource={
