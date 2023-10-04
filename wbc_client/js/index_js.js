@@ -9,7 +9,7 @@ var requestOptions = {
   redirect: 'follow'
 };
 
-fetch("https://wbc-back.onrender.com", requestOptions)
+fetch("https://wbc-back.onrender.com/upload", requestOptions)
   .then(response => response.json())
   .then(result => {console.log(result.result[1])
     document.getElementById("crop_img").src = "data:image/png;base64," + result.result[1];

@@ -34,16 +34,15 @@ class game:
         if(self.randNumber==x):
             return True
 
-# @app.route('/')
-# def hello_world():
-#     return "kiran"
+@app.route('/')
+def hello_world():
+    return "Welcome to WBC"
 @app.route("/<int:n>")
 def num(n):
     return "<h3> your number  "+str(n)+"</h1>"
 
 
-@app.route('/', methods=['GET', 'POST'])
-
+@app.route('/upload', methods=['GET', 'POST'])
 def upload_file():
     if request.method == 'POST':
         if 'file1' not in request.files:
