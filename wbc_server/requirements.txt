@@ -6,3 +6,4 @@ numpy
 Pillow
 scikit_image
 pandas
+gunicorn
