@@ -16,15 +16,6 @@ The dataset used for this classification task consists of images of white blood 
 3. Monocytes
 4. Eosinophils
 
-Please note that the dataset is not included in this repository due to its large size. However, instructions for obtaining the dataset are provided in the "Data" section below.
 
-## Requirements
-To run the code in this repository, you will need the following dependencies:
 
-- Python 3.x
-- TensorFlow (version >= 2.0)
-- NumPy
-- Matplotlib
-- OpenCV
-- Jupyter Notebook (optional, for running the provided notebook)
 
