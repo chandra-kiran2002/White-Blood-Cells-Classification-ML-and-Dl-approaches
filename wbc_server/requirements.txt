@@ -1,7 +1,7 @@
-Flask==2.3.2
-Flask_Cors==3.0.10
-joblib==1.1.0
-matplotlib==3.5.2
-numpy==1.23.5
-Pillow==9.1.0
-scikit_image==0.19.2
+Flask
+Flask_Cors
+joblib
+matplotlib
+numpy
+Pillow
+scikit_image
