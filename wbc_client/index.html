@@ -5,7 +5,28 @@
 	<meta charset="UTF-8">
 	<title>WBC</title>
 	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<style>
+		.loader {
+    width: 20px;
+    height: 20px;
+    border: 5px solid #FFF;
+    border-bottom-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    box-sizing: border-box;
+    animation: rotation 1s linear infinite;
+    }
 
+    @keyframes rotation {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+    } 
+	</style>
+	</head>
 <body>
 	<div id="header">
 		<div class="section">
@@ -93,6 +114,7 @@
 					<div>
 					<input class="form-control form-control-lg" id="formFileLg" type="file">
 					<input onclick="get_data()" class="btn btn-primary" type="submit" value="Submit">
+					<span id = "spinner" class="loader" style="display: none;"></span>
 					  </div>
 					  
 				</div>
