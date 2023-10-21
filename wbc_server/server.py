@@ -27,19 +27,7 @@ def get_response_image(image_path):
     pil_img.save(byte_arr, format='PNG') # convert the PIL image to byte array
     encoded_img = encodebytes(byte_arr.getvalue()).decode('ascii') # encode as base64
     return encoded_img
-class game:
-    def __init__(self):
-        self.randNumber = random.randint((0,9))
-    def check(self,x):
-        if(self.randNumber==x):
-            return True
 
-@app.route('/')
-def hello_world():
-    return "Welcome to WBC"
-@app.route("/<int:n>")
-def num(n):
-    return "<h3> your number  "+str(n)+"</h1>"
 
 
 @app.route('/upload', methods=['GET', 'POST'])
@@ -67,12 +55,6 @@ def upload_file():
                         'prob1':int(prob[1]*100),
                         'prob2':int(prob[2]*100),
                         'prob3':int(prob[3]*100)})
-    return '''
-    <h1>Upload new File</h1>
-    <form method="post" enctype="multipart/form-data">
-      <input type="file" name="file1">
-      <input type="submit">
-    </form>
-    '''
+
 if __name__=="__main__":
     app.run(debug=True)
